@@ -1,0 +1,47 @@
+.container{
+  width:360px;
+  background-color: #f5a8eb;
+  border:2px solid black;
+  border-radius: 10px;
+  padding:20px;
+  margin: 20px auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-title{
+  font-size: 24px;
+  color: #333;
+}
+
+
+.description{
+  font-size: 16px;
+  color: #666;
+}
+
+.btn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn:hover{
+  background-color: #45a049;
+}
+
+.navbar{
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links{
+  color: black;
+  text-decoration: underline;
+  padding: 14px 20px;
+}
