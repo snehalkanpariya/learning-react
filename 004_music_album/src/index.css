@@ -1,0 +1,102 @@
+/* Deep dark premium background */
+.music-dashboard {
+  background-color: #0b0b0d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+/* The main player container mimicking the orange glow in the screenshot */
+.player-container {
+  background: linear-gradient(135deg, #e67e22, #d35400);
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(211, 84, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Flex row to hold our album cards */
+.album-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* Base style for every album card */
+.album-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 12px;
+  width: 140px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.album-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.album-card h4 {
+  margin: 10px 0 2px 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.album-card p {
+  margin: 0;
+  font-size: 11px;
+  color: #ddd;
+}
+
+/* The active/centered highlight style from the screenshot */
+.album-card.active {
+  transform: scale(1.25);
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  width: 160px;
+}
+
+/* Glassmorphic Media Controls Bar */
+.controls-bar {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 12px 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.control-buttons {
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}

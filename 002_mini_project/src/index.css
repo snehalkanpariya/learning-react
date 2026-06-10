@@ -1,0 +1,82 @@
+/* Body background setup */
+body {
+  background-color: #0f172a;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* The Main Card */
+.profile-card {
+  background-color: #1e293b;
+  border-radius: 16px;
+  padding: 32px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  color: #f8fafc;
+}
+
+/* Avatar Badge */
+.avatar {
+  font-size: 48px;
+  background-color: #334155;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 16px auto;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0 0 4px 0;
+  font-weight: 600;
+}
+
+.location {
+  color: #38bdf8;
+  font-size: 14px;
+  margin: 0 0 16px 0;
+  font-weight: 500;
+}
+
+.bio {
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* Container holding the stacked buttons */
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Base button styling */
+.social-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+/* Individual Button Colors */
+.github { background-color: #24292e; }
+.linkedin { background-color: #0077b5; }
+.portfolio { background-color: #646cff; }
