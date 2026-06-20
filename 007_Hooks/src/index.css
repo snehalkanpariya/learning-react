@@ -1,0 +1,35 @@
+.App{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+
+.container{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(175, 195, 255);
+  margin: 10px;
+  padding: 10px 5px;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.Increase{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(168, 255, 168);
+  margin: 10px;
+  padding: 10px 5px;
+  align-items: center;
+}
+
+.Decrease{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(255, 124, 124);
+  margin: 10px;
+  padding: 10px 5px;
+  align-items: center;
+}

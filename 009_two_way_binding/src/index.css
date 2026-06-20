@@ -1,0 +1,123 @@
+/* Base styles for a clean, modern look */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.objects {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #008b8b, #005b5b); 
+  color: white;
+}
+
+.Arrays {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #00648b, #003d55); 
+  color: white;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); /* Modern glassy effect */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 30px;
+  margin: 12px 0;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.remove {
+  color: white;
+  background-color: #e05a5a;
+}
+
+.remove:hover {
+  background-color: #c94444;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(224, 90, 90, 0.3);
+}
+
+.remove:active {
+  transform: translateY(0);
+}
+
+.add {
+  color: white;
+  background-color: #2ec4b6; 
+  margin-top: 20px;
+}
+
+.add:hover {
+  background-color: #20a498;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(46, 196, 182, 0.3);
+}
+
+.add:active {
+  transform: translateY(0);
+}
+
+.binding{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #9b7fb6, #3167af); 
+  color: white;
+}
+
+
+.basic{
+  min-height: 100vh;
+  display: flex;
+  width:auto;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #b67fa8, #f57ad0); 
+  color: white;
+}
+
+.universal{
+  min-height: 100vh;
+  display: flex;
+  width:auto;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #b44fe4, #f57ad0); 
+  color: white;
+}
